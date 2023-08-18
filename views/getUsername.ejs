@@ -1,0 +1,13 @@
+<%- include('header') -%>
+    <div class="box" id="heading">
+        <h1>Enter a username</h1>
+        <p>To access your personalised list enter your username</p>
+        <div class="box item">
+            <form action="/get_user" method="post">
+                <input type="text" name="username" placeholder="Username" autocomplete="off">
+                <button type="submit" name="usernameNameButton" >GO</button>
+            </form>
+        </div>
+    </div>
+
+<%- include('footer') -%>
